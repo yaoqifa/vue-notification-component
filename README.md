@@ -17,6 +17,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+项目使用vue-cli 启动
 首先 在入口文件 main.js中引用和注册为全局方法
 ```
 import Notification from './components/notification'
