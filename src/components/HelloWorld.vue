@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     clickNotify () {
-      this.$notify({
+      this.myNotify({
         content: 'this is a notification'
       })
     }

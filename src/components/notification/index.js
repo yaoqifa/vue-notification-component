@@ -3,5 +3,5 @@ import notify from './instance'
 
 export default (Vue) => {
   Vue.component(Notification.name, Notification)
-  Vue.prototype.$notify = notify
+  Vue.prototype.myNotify = notify
 }
